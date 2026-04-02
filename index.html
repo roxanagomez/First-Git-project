@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Plans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="cards-container">
         <div class="card">
-            <h1 class="card-title">Lola</h1>
-            <p class="card-price">Free</p>
+            <div class="card-header">
+                <h3 class="card-title">Lola</h3>
+                <div class="card-price-row">
+                    <span class="card-price-per-month">Free</span>
+                </div>
+            </div>
             <div class="card-content">
                 <p class="includes-text">Includes:</p>
                 <ul class="features-list">
@@ -31,8 +38,13 @@
             <button class="download-button">Download</button>
         </div>
         <div class="card">
-            <h1 class="card-title">Pro Lola</h1>
-            <p class="card-price">$20/mo.</p>
+            <div class="card-header">
+                <h3 class="card-title">Pro Lola</h3>
+                <div class="card-price-row">
+                    <span class="card-price-per-month">$20</span>
+                    <span class="card-price-per-month-unit">/mo</span>
+                </div>
+            </div>
             <div class="card-content">
                 <p class="includes-text">Everything in Lola, plus:</p>
                 <ul class="features-list">
